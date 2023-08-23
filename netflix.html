@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.body{
+            background-color: #000;
+            color: #fff;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+        .header{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./1rrinsha-netflix-system-design-cover.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 10px 8%;
+            position: relative;
+
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        nav button{
+            border: 0;
+            outline: 0;
+            background-color: red;
+            color: white;
+            padding: 7px 20px;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .lan{
+            display: inline-flex;
+            align-items: center;
+            background: transparent;
+            border: 1px solid #fff;
+            padding: 7px 10px;
+            width: 120px;
+            background-color: #000;
+            border-radius: 5px;
+            border: 1px solid grey;
+            height: 50px;
+        }
+       
+           .header-items{
+            margin-top: 200px;
+            margin-left: 150px;
+           }
+            
+        
+        
+       
+        
+    </style>
+    <div class="header">
+        <nav>
+            <div class="card">
+                <img src="./rinsha-netflix-logo-history-32 (1).png" style="width: 90%;margin-top: 15px; height: 60px; cursor: pointer;">
+            </div>
+            <div>
+                
+               <button class="lan" style="padding: 20px; padding-left: 20px; height: 20px; font-size: 20px;">English<label><select style="background-color: black;color: white; padding-left: 4px; border: none; font-size: 20px;">English</select></label></button>
+                
+                <button style="height: 40px; margin-top: 20px; font-size: 20px;">Sign In</button>
+            </div>
+        </nav>
+        <div class="header-items" style="color: white;">
+            <h1 style="font-size: 50px;">Unlimited movies, TV shows and more</h1>
+            <h3 style="font-size: 25px; margin-left: 210px;padding-top: 20px;">Watch anywhere. Cancel anytime.</h3>
+            <p style="font-size: 22px; margin-left: 100px; padding-top: 25px;">Ready to watch? Enter your email to create or restart your membership.</p>
+           <form class="email-container" style="padding-top: 20px;" >
+            <input type="email" placeholder="Email Address" style="background-color: lightgrey; border-radius: 5px; height: 50px; margin-left: 110px; width: 400px; border: 1px solid black; padding-top: 10px;">
+            <button type="submit" style="height: 50px;background-color: red; width: 200px; border-radius: 5px; margin-left: 5px; font-size: 20px; border: none;padding-top: 7px;"> Get started></button>
+           </form>
+        </div>
+
+    </div>
+</body>
+</html>
